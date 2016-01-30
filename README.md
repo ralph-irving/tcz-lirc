@@ -3,11 +3,17 @@ lirc gpio IR support for picoreplayer 2.0 squeezelite ONLY.  Does NOT work with 
 Supported actions are
 
 Power
+
 Play
+
 Pause
+
 Next Track
+
 Previous Track
+
 Volume Up
+
 Volume Down
 
 To have the Pause action work reliably, you need to be running squeezelite v1.8.1-704 or higher.
@@ -36,7 +42,7 @@ See /usr/local/share/lirc/files/lircrc-squeezebox for an example.
 
 You'll need to copy this file to /home/tc/.lircrc and update the remote and button values for your remote.
 
-A big shout out to JackOfAll for the squeezebox remote lirc configuration files.  Thank you!
+A big shout out to JackOfAll for the squeezebox remote lirc configuration files and Steen for the rpi lirc kernel modules tcz files.  Thank you!
 
 
 Add the lirc-rpi module to /mnt/mmcblk0p1/config.txt
