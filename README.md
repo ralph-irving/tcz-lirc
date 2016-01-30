@@ -42,7 +42,7 @@ See /usr/local/share/lirc/files/lircrc-squeezebox for an example.
 
 You'll need to copy this file to /home/tc/.lircrc and update the remote and button values for your remote.
 
-A big shout out to JackOfAll for the squeezebox remote lirc configuration files and Steen for the rpi lirc kernel modules tcz files.  Thank you!
+A big shout out to JackOfAll for the squeezebox remote lirc configuration files and Steen for the rpi irda kernel modules tcz files.  Thank you!
 
 
 Add the lirc-rpi module to /mnt/mmcblk0p1/config.txt
