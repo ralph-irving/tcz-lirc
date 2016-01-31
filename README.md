@@ -32,7 +32,7 @@ touch /home/tc/.lircrc
 and skip to the Add lirc-rpi module section.
 
 
-If you want to use a different remote you need to replace /usr/local/etc/lirc/lircd.conf with the config for your remote.
+If you want to use a different remote you need to replace /usr/local/etc/lirc/lircd.conf with the config for your remote.  There are many lirc remote configurations available from http://lirc.sourceforge.net/remotes/
 
 Add usr/local/etc/lirc/lircd.conf to the end of the file /opt/.filetool.lst
 
