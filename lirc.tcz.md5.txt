@@ -1,1 +1,1 @@
-52ab13d70f2407a05385b9a188c2f886  lirc.tcz
+ebddf6cebea5202f6b725cd0946b17cf  lirc.tcz

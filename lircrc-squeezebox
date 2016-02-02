@@ -6,7 +6,7 @@ begin
 	remote = Slim_Devices_Squeezebox3
 	button = KEY_POWER
 	repeat = 0
-	prog = squeezelite
+	prog = squeezelite-armv6hf
 	config = power
 end
 
@@ -18,7 +18,7 @@ begin
 	remote = Slim_Devices_Squeezebox3
 	button = KEY_VOLUMEDOWN
 	repeat = 0
-	prog = squeezelite
+	prog = squeezelite-armv6hf
 	config = voldown
 end
 
@@ -30,7 +30,7 @@ begin
 	remote = Slim_Devices_Squeezebox3
 	button = KEY_VOLUMEUP
 	repeat = 0
-	prog = squeezelite
+	prog = squeezelite-armv6hf
 	config = volup
 end
 
@@ -42,7 +42,7 @@ begin
         remote = Slim_Devices_Squeezebox3
         button = Brightness
         repeat = 0
-        prog = squeezelite
+        prog = squeezelite-armv6hf
         config = muting
 end
 
@@ -54,7 +54,7 @@ begin
 	remote = Slim_Devices_Squeezebox3
 	button = KEY_PLAY
 	repeat = 0
-	prog = squeezelite
+	prog = squeezelite-armv6hf
 	config = play
 end
 
@@ -66,7 +66,7 @@ begin
 	remote = Slim_Devices_Squeezebox3
 	button = KEY_PAUSE
 	repeat = 0
-	prog = squeezelite
+	prog = squeezelite-armv6hf
 	config = pause
 end
 
@@ -78,7 +78,7 @@ begin
 	remote = Slim_Devices_Squeezebox3
 	button = KEY_FORWARD
 	repeat = 0
-	prog = squeezelite
+	prog = squeezelite-armv6hf
 	config = fwd
 end
 
@@ -90,7 +90,7 @@ begin
 	remote = Slim_Devices_Squeezebox3
 	button = KEY_REWIND
 	repeat = 0
-	prog = squeezelite
+	prog = squeezelite-armv6hf
 	config = rew
 end
 
