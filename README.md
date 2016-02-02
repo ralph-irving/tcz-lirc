@@ -32,7 +32,7 @@ touch /home/tc/.lircrc
 and skip to the Add lirc-rpi module section.
 
 
-If you want to use a different remote you need to replace /usr/local/etc/lirc/lircd.conf with the config for your remote.  There are many lirc remote configurations available from http://lirc.sourceforge.net/remotes/
+If you want to use a different remote you need to replace /usr/local/etc/lirc/lircd.conf with the config for your remote.  There are many lirc remote configurations available from http://lirc.sourceforge.net/remotes/ and I've included configuration files in git for a Sony RMT-116A DVD remote I created with the irrecord command as an example. (lircd-RMTD116A/lircrc-RMTD116A)
 
 Add usr/local/etc/lirc/lircd.conf to the end of the file /opt/.filetool.lst
 
@@ -97,3 +97,9 @@ Add -i to the Various input field on the Squeezelite settings page.
 
 
 Save your configuration and reboot.
+
+
+See this YouTube video on changing lircd.conf to fix multiple key presses when you press the remote button once.
+
+https://www.youtube.com/watch?v=ENCXM16NGE4
+
