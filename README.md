@@ -1,4 +1,4 @@
-lirc gpio IR support for picoreplayer 2.0 squeezelite ONLY.  Does NOT work with Jivelite at the moment.
+lirc gpio IR support for picoreplayer 2.0 squeezelite ONLY.  See the bottom of README.md for Jivelite setup details.
 
 Supported actions are
 
@@ -103,3 +103,17 @@ See this YouTube video on changing lircd.conf to fix multiple key presses when y
 
 https://www.youtube.com/watch?v=ENCXM16NGE4
 
+
+LIRC IR Jivelite Setup
+
+Only works with a squeezebox3, classic, or touch slimdevices/logitech remote right now.  
+
+Copy lircd-jivelite from git to /usr/local/etc/lirc/lircd.conf on picoreplayer
+
+Add usr/local/etc/lirc/lircd.conf to the end of the file /opt/.filetool.lst
+
+Add to one of the User commands fields on the tweaks page in the web gui.
+
+/usr/local/sbin/lircd --device=/dev/lirc0 --uinput
+
+Save your configuration and reboot.
