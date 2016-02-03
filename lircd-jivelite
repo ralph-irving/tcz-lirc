@@ -59,7 +59,7 @@ begin remote
           KEY_S                    0xB847                    ## Sleep
           KEY_LEFTBRACE            0x7887                    ## NowPlaying
           KEY_LEFTBRACE            0xA25D                    ## Touch:NOW PLAYING
-          KEY_GRAVE                0xF807                    ## Size / Playlist
+          KEY_RIGHTBRACE           0xF807                    ## Size / Playlist / Playlists (KEY_GRAVE)
 	  KEY_SEMICOLON            0x708F                    ## Browse
           KEY_H                    0x04FB                    ## Brightness Was:KEY_APOSTROPHE
           KEY_H                    0x22DD                    ## Touch:HOME
