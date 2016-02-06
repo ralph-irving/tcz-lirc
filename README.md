@@ -104,11 +104,13 @@ See this YouTube video on changing lircd.conf to fix multiple key presses when y
 https://www.youtube.com/watch?v=ENCXM16NGE4
 
 
+
+
 LIRC IR Jivelite Setup
 
-Only works with a squeezebox3, classic, or touch slimdevices/logitech remote right now.  
+Copy the lircd-jivelite from git to /usr/local/etc/lirc/lircd.conf on picoreplayer or create/modify your own.
 
-Copy lircd-jivelite from git to /usr/local/etc/lirc/lircd.conf on picoreplayer
+The lircd-jivelite config file is only for a squeezebox3, classic, or touch slimdevices/logitech remote. I've also included a lircd-jivelite-RMTD116A config file which is for a Sony RMT-D116A remote.
 
 Add usr/local/etc/lirc/lircd.conf to the end of the file /opt/.filetool.lst
 
@@ -116,4 +118,8 @@ Add to one of the User commands fields on the tweaks page in the web gui.
 
 /usr/local/sbin/lircd --device=/dev/lirc0 --uinput
 
-Save your configuration and reboot.
+Save your configuration and reboot
+
+To create a lircd.conf for a different remote, see jivekeys.csv for the key symbols, that work with jivelite, during your irrecord session.
+
+lircd v0.9.0 does not support keyboard modifiers, like SHIFT, CONTROL, ALT so you cannot use any of the shifted keys. ie Upper case letters! Key symbols postfixed with (NEW) require a new jivelite.tcz build, which is not yet released. Needs more testing. 
