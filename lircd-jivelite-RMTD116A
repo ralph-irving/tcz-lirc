@@ -5,7 +5,7 @@
 # contributed by Ralph Irving
 #
 # brand: Sony
-# model no. of remote control: RMT-D116A
+# model no. of remote control: RMT-D116A / RMT-D117A
 # devices being controlled by this remote: DVP-NS415
 #
 
@@ -27,7 +27,7 @@ begin remote
   toggle_bit_mask 0x0
 
       begin codes
-          KEY_S                    0x68B	#  (sleep) Open/Close
+          KEY_SLASH                0x68B	#  (go_search) Open/Close
           KEY_POWER                0xA8B	#  (power) Power 1/0
           KEY_1                    0x00B
           KEY_2                    0x80B
@@ -45,9 +45,10 @@ begin remote
           KEY_COLON                0xA6B	#  (favourites) Angle
           KEY_GRAVE                0xC6B	#  (playlists) Subtitle
           KEY_COMMA                0xACB	#  (shuffle)
-          KEY_SLASH                0xF8B	#  (search) Program
+          KEY_Y                    0xF8B	#  (play_next) Program
           KEY_DOT                  0x34B	#  (repeat) Again
           KEY_SEMICOLON            0x54B	#  (go_music_library) A-B
+          KEY_SEMICOLON            0x1AB	#  (go_music_library) DVE
           KEY_Z                    0x0CB	#  (jump_rew) Previous
           KEY_B                    0x8CB	#  (jump_fwd) Next
           KEY_D                    0x14B	#  (add_end) Time/Text
