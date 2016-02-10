@@ -42,11 +42,11 @@ begin remote
           KEY_BACKSPACE            0xF0B	#  (back) Clear
           KEY_L                    0xD0B	#  (go) Enter/Circle Enter
           KEY_U                    0x26B	#  (mute) Audio
-          KEY_COLON                0xA6B	#  (favourites) Angle
+          KEY_F                    0xA6B	#  (favourites) Angle
           KEY_GRAVE                0xC6B	#  (playlists) Subtitle
           KEY_COMMA                0xACB	#  (shuffle)
           KEY_Y                    0xF8B	#  (play_next) Program
-          KEY_DOT                  0x34B	#  (repeat) Again
+          KEY_DOT                  0x34B	#  (repeat)
           KEY_SEMICOLON            0x54B	#  (go_music_library) A-B
           KEY_SEMICOLON            0x1AB	#  (go_music_library) DVE
           KEY_Z                    0x0CB	#  (jump_rew) Previous

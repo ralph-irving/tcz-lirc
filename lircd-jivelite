@@ -23,8 +23,7 @@ begin remote
   pre_data_bits   16
   pre_data       0x7689
   gap          107995
-  min_repeat   1
-  suppress_repeat 4
+  suppress_repeat 6
   toggle_bit      0
 
       begin codes
@@ -37,8 +36,8 @@ begin remote
           KEY_A                    0x609F                    ## Add
           KEY_P                    0x10EF                    ## Play
           KEY_UP                   0xE01F                    ## Up
-          KEY_J                    0x906F                    ## Left
-          KEY_L                    0xD02F                    ## Right
+          KEY_LEFT                 0x906F                    ## Left
+          KEY_RIGHT                0xD02F                    ## Right
           KEY_DOWN                 0xB04F                    ## Down
           KEY_1                    0xF00F                    ## 1
           KEY_2                    0x08F7                    ## 2
@@ -50,18 +49,18 @@ begin remote
           KEY_8                    0x6897                    ## 8
           KEY_9                    0xE817                    ## 9
           KEY_0                    0x9867                    ## 0
-          KEY_COLON                0x18E7                    ## Favourites
-          KEY_COLON                0xE21D                    ## Touch:FAVOURITES
+          KEY_F                    0x18E7                    ## Favourites
+          KEY_F                    0xE21D                    ## Touch:FAVOURITES
           KEY_SLASH                0x58A7                    ## Search
           KEY_SLASH                0x629D                    ## Touch:SEARCH
           KEY_COMMA                0xD827                    ## Shuffle
           KEY_DOT                  0x38C7                    ## Repeat
-          KEY_S                    0xB847                    ## Sleep
+          KEY_ESC                  0xB847                    ## Sleep (escape)
           KEY_LEFTBRACE            0x7887                    ## NowPlaying
           KEY_LEFTBRACE            0xA25D                    ## Touch:NOW PLAYING
-          KEY_RIGHTBRACE           0xF807                    ## Size / Playlist / Playlists (KEY_GRAVE)
+          KEY_G                    0xF807                    ## Size (stop)
 	  KEY_SEMICOLON            0x708F                    ## Browse
-          KEY_H                    0x04FB                    ## Brightness Was:KEY_APOSTROPHE
+          KEY_GRAVE                0x04FB                    ## Brightness (playlists)
           KEY_H                    0x22DD                    ## Touch:HOME
       end codes
 end remote
