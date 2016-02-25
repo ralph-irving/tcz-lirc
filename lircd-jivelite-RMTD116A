@@ -60,7 +60,7 @@ begin remote
           KEY_C                    0x9CB	#  (pause) Pause
           KEY_G                    0x1CB	#  (stop) Stop
           KEY_LEFTBRACE            0x58B	#  (go_now_playing) Title
-          KEY_H                    0xD8B	#  (go_home) DVD Menu
+          KEY_T                    0xD8B	#  (go_current_track_info) DVD Menu
           KEY_A                    0x2AB	#  (add) Display
           KEY_ESC                  0x70B	#  (back) Return
           KEY_LEFT                 0xDEB
