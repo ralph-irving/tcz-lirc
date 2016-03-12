@@ -1,7 +1,8 @@
+Key Press,Jive Action,LIRC Key Symbol,New
 [,go_now_playing,KEY_LEFTBRACE
 ],go_playlist,KEY_RIGHTBRACE
 {,go_current_track_info
-t,go_current_track_info,KEY_T (NEW)
+t,go_current_track_info,KEY_T,yes
 `,go_playlists,KEY_GRAVE
 ;,go_music_library,KEY_SEMICOLON
 :,go_favorites,KEY_COLON
@@ -16,23 +17,23 @@ q,power,KEY_Q
 /,go_search,KEY_SLASH
 h,go_home,KEY_H
 J,go_home_or_now_playing
-n,go_home_or_now_playing,KEY_N (NEW)
+n,go_home_or_now_playing,KEY_N,yes
 D,soft_reset
 x,play,KEY_X
 p,play,KEY_P
 P,create_mix
-m,create_mix,KEY_M (NEW)
+m,create_mix,KEY_M,yes
 SPACE,pause,KEY_SPACE
 c,pause,KEY_C
 C,stop
-g,stop,KEY_G (NEW)
+g,stop,KEY_G,yes
 a,add,KEY_A
 A,add_end
-d,add_end,KEY_D (NEW)
+d,add_end,KEY_D,yes
 W,play_next
-y,play_next,KEY_Y (NEW)
+y,play_next,KEY_Y,yes
 M,mute
-u,mute,KEY_U (NEW)
+u,mute,KEY_U,yes
 BACKSPACE,back,KEY_BACKSPACE
 ESCAPE,back,KEY_ESC
 j,back/left,KEY_J
@@ -41,12 +42,12 @@ S,take_screenshot
 z,jump_rew,KEY_Z
 <,jump_rew
 Z,scanner_rew
-e,scanner_rew,KEY_E (NEW)
+e,scanner_rew,KEY_E,yes
 b,jump_fwd,KEY_B
 >,jump_fwd
 B,scanner_fwd
-r,scanner_fwd,KEY_R (NEW)
-+,volume_up,
+r,scanner_fwd,KEY_R,yes
+"+",volume_up,
 =,volume_up,KEY_EQUAL
 "-",volume_down,KEY_MINUS
 "0",play_preset_0,KEY_0

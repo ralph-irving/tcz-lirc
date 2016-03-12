@@ -51,7 +51,7 @@ begin remote
           KEY_SEMICOLON            0x1AB	#  (go_music_library) DVE
           KEY_Z                    0x0CB	#  (jump_rew) Previous
           KEY_B                    0x8CB	#  (jump_fwd) Next
-          KEY_D                    0x14B	#  (add_end) Time/Text
+          KEY_RIGHTBRACE           0x14B	#  (go_playlist) Time/Text
           KEY_E                    0x04B	#  (scanner_rew) Back
           KEY_R                    0x84B	#  (scanner_fwd) Forward
           KEY_MINUS                0x44B	#  (volume_down) Scan/Slow Back
