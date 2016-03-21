@@ -78,6 +78,8 @@ cd $OUTPUT >> $LOG
 cp -p $STARTDIR/tce.lirc $OUTPUT/usr/local/tce.installed/lirc
 cp -p $STARTDIR/lircrc-squeezebox $OUTPUT/usr/local/share/lirc/files
 cp -p $STARTDIR/lircd.conf $OUTPUT/usr/local/share/lirc/files
+cp -p $STARTDIR/lircd-jivelite $OUTPUT/usr/local/share/lirc/files
+cp -p $STARTDIR/lircd-jivelite-RMTD116A $OUTPUT/usr/local/share/lirc/files
 
 rm $OUTPUT/usr/local/lib/liblirc_client.la
 mv $OUTPUT/usr/local/lib/liblirc_client.a $STARTDIR/
@@ -86,6 +88,7 @@ sudo chown -Rh root:root usr >> $LOG
 sudo chown tc:staff usr/local/etc/lirc >> $LOG
 sudo chown tc:staff usr/local/tce.installed/lirc >> $LOG
 sudo chown tc:staff usr/local/share/lirc/files/* >> $LOG
+sudo chmod 664 usr/local/share/lirc/files/* >> $LOG
 
 sudo chown root:root $OUTPUT
 
