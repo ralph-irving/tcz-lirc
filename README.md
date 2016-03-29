@@ -62,6 +62,9 @@ Change the "25" to the gpio in pin you have your IR receiver diode connected.
 
 Copy these files to /mnt/mmcblk0p2/tce/optional
 
+
+For piCorePlayer < 2.04
+
 irda-4.1.13-piCore+.tcz
 
 irda-4.1.13-piCore+.tcz.md5.txt
@@ -69,6 +72,20 @@ irda-4.1.13-piCore+.tcz.md5.txt
 irda-4.1.13-piCore_v7+.tcz
 
 irda-4.1.13-piCore_v7+.tcz.md5.txt
+
+
+For piCorePlayer >= 2.04
+
+irda-4.1.20-piCore+.tcz
+
+irda-4.1.20-piCore+.tcz.md5.txt
+
+irda-4.1.20-piCore_v7+.tcz
+
+irda-4.1.20-piCore_v7+.tcz.md5.txt
+
+
+For all piCorePlayer versions
 
 lirc.tcz
 
