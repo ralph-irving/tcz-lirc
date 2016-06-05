@@ -1,0 +1,55 @@
+###########################
+## KEY_PLAY (0x768910ef) ##
+###########################
+
+begin
+	remote = rm-s70
+	button = KEY_PLAY
+	repeat = 0
+	prog = squeezelite-armv6hf
+	config = play
+end
+
+############################
+## KEY_PAUSE (0x768920df) ##
+############################
+
+begin
+	remote = rm-s70
+	button = KEY_PAUSE
+	repeat = 1
+	prog = squeezelite-armv6hf
+	config = pause
+end
+
+###########################
+## KEY_NEXT (0x7689a05f) ##
+###########################
+
+begin
+	remote = rm-s70
+	button = KEY_FORWARD
+	repeat = 0
+	prog = squeezelite-armv6hf
+	config = fwd
+end
+
+###############################
+## KEY_PREVIOUS (0x7689c03f) ##
+###############################
+
+begin
+	remote = rm-s70
+	button = KEY_REWIND
+	repeat = 0
+	prog = squeezelite-armv6hf
+	config = rew
+end
+
+###########################
+## power_on (0x76898f70) ##
+###########################
+
+############################
+## power_off (0x76898778) ##
+############################

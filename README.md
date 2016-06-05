@@ -139,4 +139,4 @@ Save your configuration and reboot
 
 To create a lircd.conf for a different remote, see jivekeys.csv for the key symbols, that work with jivelite, during your irrecord session.
 
-lircd v0.9.0 does not support keyboard modifiers, like SHIFT, CONTROL, ALT so you cannot use any of the shifted keys. ie Upper case letters! Key symbols postfixed with (NEW) require a new jivelite.tcz build, which is not yet released. Needs more testing. 
+lircd v0.9.0 does not support keyboard modifiers, like SHIFT, CONTROL, ALT so you cannot use any of the shifted keys. ie Upper case letters! Key symbols postfixed with (NEW) require latest jivelite.tcz build, available now for piCorePlayer.
