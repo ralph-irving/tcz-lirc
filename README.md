@@ -1,3 +1,5 @@
+piCorePlayer 3.0 release includes native lirc support.
+
 lirc gpio IR support for picoreplayer 2.0 squeezelite ONLY.  See the bottom of README.md for Jivelite setup details.
 
 Supported actions are
@@ -74,7 +76,7 @@ irda-4.1.13-piCore_v7+.tcz
 irda-4.1.13-piCore_v7+.tcz.md5.txt
 
 
-For piCorePlayer >= 2.04
+For piCorePlayer >= 2.04 and < 3.00
 
 irda-4.1.20-piCore+.tcz
 
@@ -83,6 +85,17 @@ irda-4.1.20-piCore+.tcz.md5.txt
 irda-4.1.20-piCore_v7+.tcz
 
 irda-4.1.20-piCore_v7+.tcz.md5.txt
+
+
+For piCorePlayer >= 3.00
+
+irda-4.4.15-piCore+.tcz
+
+irda-4.4.15-piCore+.tcz.md5.txt
+
+irda-4.4.15-piCore_v7+.tcz
+
+irda-4.4.15-piCore_v7+.tcz.md5.txt
 
 
 For all piCorePlayer versions
