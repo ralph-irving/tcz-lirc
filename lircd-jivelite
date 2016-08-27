@@ -23,8 +23,9 @@ begin remote
   pre_data_bits   16
   pre_data       0x7689
   gap          107995
+  min_repeat      1
   suppress_repeat 6
-  toggle_bit      0
+  toggle_bit_mask 0x0
 
       begin codes
           KEY_MINUS                0x00FF                    ## Volume- 
@@ -59,7 +60,7 @@ begin remote
           KEY_LEFTBRACE            0x7887                    ## NowPlaying
           KEY_LEFTBRACE            0xA25D                    ## Touch:NOW PLAYING
           KEY_G                    0xF807                    ## Size (stop)
-	  KEY_SEMICOLON            0x708F                    ## Browse
+          KEY_SEMICOLON            0x708F                    ## Browse
           KEY_GRAVE                0x04FB                    ## Brightness (playlists)
           KEY_H                    0x22DD                    ## Touch:HOME
       end codes
