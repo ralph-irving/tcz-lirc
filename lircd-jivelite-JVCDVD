@@ -1,0 +1,59 @@
+#
+# using lirc-0.9.0(userspace) on Wed Sep 14 10:51:57 2016
+#
+# contributed by Ralph Irving
+#
+# brand: JVC DVD (0650)
+# model no. of remote control: Yamaha RAV350 CD
+# devices being controlled by this remote: Jivelite
+#
+
+
+begin remote
+
+  name  yamjvcdvd
+  bits            8
+  flags SPACE_ENC|NO_HEAD_REP|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8360  4219
+  one           563  1530
+  zero          563   483
+  ptrail        564
+  pre_data_bits   8
+  pre_data       0xF7
+  gap          46796
+  min_repeat      1
+  suppress_repeat 3
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0x02		## Power
+          KEY_Z                    0x0E		## Rewind
+          KEY_C                    0xB2		## Pause
+          KEY_B                    0x6E		## Forward
+          KEY_A                    0xAD         ## Add (Display)
+          KEY_P                    0x32         ## Play
+          KEY_UP                   0x0B         ## Up
+          KEY_LEFT                 0x4B         ## Down
+          KEY_RIGHT                0xCB         ## Right
+          KEY_DOWN                 0x8B         ## Left
+          KEY_1                    0x86         ## 1
+          KEY_2                    0x46         ## 2
+          KEY_3                    0xC6         ## 3
+          KEY_4                    0x26         ## 4
+          KEY_5                    0xA6         ## 5
+          KEY_6                    0x66         ## 6
+          KEY_7                    0xE6         ## 7
+          KEY_8                    0x16         ## 8
+          KEY_9                    0x96         ## 9
+          KEY_0                    0x06         ## 0
+          KEY_L                    0x2B         ## Go (Circle Enter)
+          KEY_LEFTBRACE            0x43         ## Go Now Playing (Title)
+          KEY_G                    0xC2         ## Stop
+          KEY_ESC                  0xAB         ## Back (Return)
+          KEY_T                    0x83         ## Go Current Track Info (Menu)
+      end codes
+
+end remote
