@@ -87,7 +87,7 @@ irda-4.1.20-piCore_v7+.tcz
 irda-4.1.20-piCore_v7+.tcz.md5.txt
 
 
-For piCorePlayer >= 3.00
+For piCorePlayer >= 3.00 and < 3.0.2
 
 irda-4.4.15-piCore+.tcz
 
@@ -96,6 +96,17 @@ irda-4.4.15-piCore+.tcz.md5.txt
 irda-4.4.15-piCore_v7+.tcz
 
 irda-4.4.15-piCore_v7+.tcz.md5.txt
+
+
+For piCorePlayer >= 3.02
+
+irda-4.4.20-piCore+.tcz
+
+irda-4.4.20-piCore+.tcz.md5.txt
+
+irda-4.4.20-piCore_v7+.tcz
+
+irda-4.4.20-piCore_v7+.tcz.md5.txt
 
 
 For all piCorePlayer versions
