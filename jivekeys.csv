@@ -14,6 +14,8 @@
 "s","sleep","KEY_S","no"
 "Q","power","KEY_POWER","no"
 "q","power","KEY_Q","no"
+"k","power_on","KEY_K","yes"
+"i","power_off","KEY_I","yes"
 "/","go_search","KEY_SLASH","no"
 "h","go_home","KEY_H","no"
 "J","go_home_or_now_playing",,"no"
