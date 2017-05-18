@@ -1,0 +1,44 @@
+#
+# This config file was automatically generated
+# using lirc-0.9.0 (default) on Tue May 16 14:49:53 2017
+#
+# contributed by: Ralph Irving
+#
+# brand: JustBoom
+# model no. of remote control: IR Remote
+# devices being controlled by this remote: Jivelite Keyboard Emulation
+#
+ 
+begin remote
+ 
+  name  JBIRJive
+  bits            5
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+ 
+  one           921   855
+  zero          921   855
+  plead         936
+  pre_data_bits   8
+  pre_data       0xA0
+  gap          114211
+  toggle_bit_mask 0x800
+  suppress_repeat 2
+ 
+      begin codes
+          KEY_LEFTBRACE		0x10		# Home (go_nowplaying)
+          KEY_C			0x12		# Mute (pause)
+          KEY_POWER		0x11		# Power
+          KEY_UP		0x1A		# Up
+          KEY_DOWN		0x1B		# Down
+          KEY_LEFT		0x13		# Left
+          KEY_RIGHT		0x14		# Right
+          KEY_L			0x15		# OK (go)
+          KEY_A			0x16		# Menu (add)
+          KEY_ESC		0x17		# Back
+          KEY_EQUAL		0x19		# Volume-Up
+          KEY_MINUS		0x18		# Volume-Down
+      end codes
+ 
+end remote
