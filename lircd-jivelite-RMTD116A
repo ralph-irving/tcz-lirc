@@ -28,7 +28,7 @@ begin remote
 
       begin codes
           KEY_SLASH                0x68B	#  (go_search) Open/Close
-          KEY_POWER                0xA8B	#  (power) Power 1/0
+          KEY_POWER                0xA8B	#  (power) DVD Power 1/0 
           KEY_1                    0x00B
           KEY_2                    0x80B
           KEY_3                    0x40B
@@ -92,6 +92,7 @@ begin remote
         KEY_MINUS                0xC81  # DVD Volume Down
         KEY_EQUAL                0x481  # DVD Volume Up
         KEY_S                    0xA50	# (sleep) TV/Video
+        KEY_POWER                0xA90  # TV Power
     end codes
 
 end remote
