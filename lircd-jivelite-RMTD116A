@@ -54,8 +54,8 @@ begin remote
           KEY_RIGHTBRACE           0x14B	#  (go_playlist) Time/Text
           KEY_E                    0x04B	#  (scanner_rew) Back
           KEY_R                    0x84B	#  (scanner_fwd) Forward
-          KEY_MINUS                0x44B	#  (volume_down) Scan/Slow Back
-          KEY_EQUAL                0xC4B	#  (volume_up) Scan/Slow Forward
+          KEY_D                    0x44B	#  (add end) Scan/Slow Back
+          KEY_Y                    0xC4B	#  (play next) Scan/Slow Forward
           KEY_P                    0x4CB	#  (play) Play
           KEY_C                    0x9CB	#  (pause) Pause
           KEY_G                    0x1CB	#  (stop) Stop
@@ -71,4 +71,28 @@ begin remote
 
 end remote
 
+begin remote
+
+    name  rmt-d116a2
+    bits           12
+    flags SPACE_ENC|CONST_LENGTH
+    eps            30
+    aeps          100
+
+    header       2439   600
+    one          1236   558
+    zero          638   558
+    gap          44990
+    suppress_repeat 5
+    toggle_bit_mask 0x0
+
+    begin codes
+        KEY_VOLUMEDOWN           0xC90  # TV Volume Down
+        KEY_VOLUMEUP             0x490  # TV Volume Up
+        KEY_MINUS                0xC81  # DVD Volume Down
+        KEY_EQUAL                0x481  # DVD Volume Up
+        KEY_S                    0xA50	# (sleep) TV/Video
+    end codes
+
+end remote
 
