@@ -25,6 +25,7 @@
 "p","play","KEY_P","no"
 "P","create_mix",,"no"
 "m","create_mix","KEY_M","yes"
+"ENTER","go","KEY_ENTER","no"
 "SPACE","pause","KEY_SPACE","no"
 "c","pause","KEY_C","no"
 "C","stop",,"no"
