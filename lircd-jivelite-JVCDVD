@@ -33,7 +33,7 @@ begin remote
           KEY_Z                    0x0E		## Rewind
           KEY_C                    0xB2		## Pause
           KEY_B                    0x6E		## Forward
-          KEY_A                    0xAD         ## Add (Display)
+          KEY_ESC                  0xAD         ## Back (Display)
           KEY_P                    0x32         ## Play
           KEY_UP                   0x0B         ## Up
           KEY_LEFT                 0x4B         ## Down
@@ -52,7 +52,7 @@ begin remote
           KEY_L                    0x2B         ## Go (Circle Enter)
           KEY_LEFTBRACE            0x43         ## Go Now Playing (Title)
           KEY_G                    0xC2         ## Stop
-          KEY_ESC                  0xAB         ## Back (Return)
+          KEY_A                    0xAB         ## Add (Return)
           KEY_T                    0x83         ## Go Current Track Info (Menu)
       end codes
 
