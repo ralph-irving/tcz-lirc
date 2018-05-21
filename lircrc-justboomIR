@@ -1,0 +1,32 @@
+begin
+remote = JustBOOMIR
+button = KEY_RIGHT
+repeat = 0
+prog = squeezelite
+config = fwd
+end
+
+begin
+remote = JustBOOMIR
+button = KEY_LEFT
+repeat = 0
+prog = squeezelite
+config = rew 
+end
+
+begin
+remote = JustBOOMIR
+button = KEY_OK
+repeat = 0
+prog = squeezelite
+config = play 
+end
+
+begin
+remote = JustBOOMIR
+button = KEY_BACK
+repeat = 1
+prog = squeezelite
+config = pause
+end
+

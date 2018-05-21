@@ -1,12 +1,13 @@
 #
 # This config file was automatically generated
-# using lirc-0.9.0 (default) on Tue May 16 14:48:27 2017
+# using lirc-0.9.0 (default) on Sun May 21 14:08:27 2018
 #
 # contributed by: Ralph Irving
 #
 # brand: JustBoom
 # model no. of remote control: IR Remote
 # devices being controlled by this remote: Squeezelite IR client
+# requires -i lircrc-justboomIR on squeezelite command line.
 #
 # Unused Keys
 #
@@ -29,17 +30,23 @@ begin remote
   pre_data_bits   8
   pre_data       0xA0
   gap          114211
+  min_repeat      1      
+  suppress_repeat 3      
   toggle_bit_mask 0x800
  
       begin codes
-          KEY_MUTE		0x12
+          KEY_HOME		0x10
           KEY_POWER		0x11
-          KEY_REWIND		0x13
-          KEY_FORWARD		0x14
-          KEY_PLAY		0x15	# Ok
-          KEY_PAUSE		0x17	# Back
-          KEY_VOLUMEUP		0x19
+          KEY_MUTE		0x12
+          KEY_LEFT		0x13
+          KEY_RIGHT		0x14
+          KEY_OK		0x15
+          KEY_MENU		0x16
+          KEY_BACK		0x17
           KEY_VOLUMEDOWN	0x18
+          KEY_VOLUMEUP		0x19
+          KEY_UP		0x1A
+          KEY_DOWN		0x1B
       end codes
  
 end remote
