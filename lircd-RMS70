@@ -1,37 +1,63 @@
 #
 # This config file was automatically generated
-# using lirc-0.9.0(default) on Sun Jun  5 16:10:14 2016
-#
+# using lirc-0.9.4d(default) on Thu Jan  3 08:03:24 2019
+
 # contributed by Ralph Irving
 #
 # brand: Sony
 # model no. of remote control: RM-S70
 # devices being controlled by this remote: Sony STR-AV310
 #
+# 0xA41 # CD Play
+# 0x1D1 # CD Stop
+# 0x8D1 # CD Next
+# 0x7D1 # Disc Skip
+#
+# 0xCC1 # Tape A Fast Rewind
+# 0x2C1 # Tape A Fast Forward
+# 0xC41 # Tape A Back
+# 0xC41 # Tape A Forward
+# 0x6C1 # Tape A Record
+# 0x1C1 # Tape A Stop
+# 0x9C1 # Tape A Pause
+#
+# 0xD8E # Tape B Fast Rewind
+# 0x38E # Tape B Fast Forward
+# 0xC41 # Tape B Back
+# 0xC41 # Tape B Forward
+# 0x78E # Tape B Record
+# 0x18E # Tape B Stop
+# 0x98E # Tape B Pause
+#
+# 0x041 # Phono Start
+# 0x941 # Phone Stop
 
 begin remote
 
   name  rm-s70
-  bits            8
+  bits           12
   flags SPACE_ENC|CONST_LENGTH
   eps            30
   aeps          100
 
-  header       2454   555
-  one          1253   545
-  zero          653   545
-  post_data_bits  4
-  post_data      0x1
-  gap          45367
-  min_repeat      1
-  suppress_repeat 4
+  header       2468   539
+  one          1269   529
+  zero          669   529
+  gap          45363
   toggle_bit_mask 0x0
+  suppress_repeat 5
+  min_repeat      1
+  frequency    38000
 
       begin codes
-          KEY_PLAY                 0xA4 # CD Play
-          KEY_PAUSE                0x1D # CD Stop
-          KEY_FORWARD              0x8D # CD Next
-          KEY_REWIND               0x7D	# Disc Skip
+          KEY_VOLUMEDOWN           0xD8E # Tape B Fast Rewind
+          KEY_VOLUMEUP             0x38E # Tape B Fast Forward
+          KEY_REWIND               0xCC1 # Tape A Fast Rewind
+          KEY_FORWARD              0x2C1 # Tape A Fast Forward
+          KEY_PLAY                 0xC41 # Tape A Forward
+          KEY_POWER                0x6C1 # Tape A Record
+          KEY_MUTE                 0x1C1 # Tape A Stop
+          KEY_PAUSE                0x9C1 # Tape A Pause
       end codes
 
 end remote
