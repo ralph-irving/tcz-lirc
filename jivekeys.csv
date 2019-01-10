@@ -36,6 +36,7 @@
 "y","play_next","KEY_Y","yes"
 "M","mute",,"no"
 "u","mute","KEY_U","yes"
+"o","quit","KEY_O","yes"
 "BACKSPACE","back","KEY_BACKSPACE","no"
 "ESCAPE","back","KEY_ESC","no"
 "j","back/left","KEY_J","no"
