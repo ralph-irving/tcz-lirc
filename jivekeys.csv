@@ -8,6 +8,7 @@
 ":","go_favorites","KEY_COLON","no"
 "f","go_favorites","KEY_F","no"
 "'","go_brightness","KEY_APOSTROPHE","no"
+"v","go_twiddle_visualiser","KEY_V","vis"
 ",","shuffle_toggle","KEY_COMMA","no"
 ".","repeat_toggle","KEY_DOT","no"
 "|","sleep",,"no"
